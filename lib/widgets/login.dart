@@ -82,6 +82,7 @@ class _LoginWidgetState extends State<LoginWidget> {
             },
             child: const Text('Login'),
           ),
+          const SizedBox(height: 20.0),
           if (errorMessage != null)
             Text(
               errorMessage!,
